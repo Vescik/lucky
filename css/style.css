@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Aleo:300,400,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-style: 'Ales', serif;
+  font-size: 3rem; }
+
+.header {
+  color: #fff;
+  text-align: center; }
+  .header-main-heading {
+    font-size: 48px; }
+  .header-secondary-heading {
+    font-size: 32px; }
+
+.cards-box_week {
+  color: #756F7D;
+  font-size: 30px; }
+
+.cards-box_number {
+  font-size: 144px;
+  color: #EF7BB2; }
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .cards-box {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 300px;
+    width: 260px;
+    text-align: center; }
+    .cards-box_number {
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.i4 {
+  order: 1;
+  align-self: flex-end; }
+
+.i5 {
+  order: 2;
+  align-self: flex-end; }
+
+body {
+  background-color: #656AD7 !important; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .header-main-heading {
+    margin: 26px 0 31px 0;
+    display: inline-block;
+    padding: 20px 100px;
+    background-color: #8C6DE4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .header-secondary-heading {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #AC9AE0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
